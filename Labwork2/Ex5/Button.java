@@ -1,7 +1,7 @@
 package Labwork2.Ex5;
 
 public class Button {
-    String label, color;
+    private String label, color;
 
     public Button(){
 
@@ -12,6 +12,14 @@ public class Button {
         this.color = color;
     }
 
+    public String getLabel() {
+        return label;
+    }
+
+    public String getColor() {
+        return color;
+    }
+    
     public void setColor(String color){
         this.color = color;
         System.out.println("Changed successfully");
