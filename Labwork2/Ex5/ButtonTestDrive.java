@@ -8,7 +8,7 @@ public class ButtonTestDrive {
         System.out.println(btn.label + " " + btn.color);
 
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.print("Enter the color you want to change: ");
         String newColor = scanner.nextLine();
         btn.setColor(newColor);
@@ -21,5 +21,7 @@ public class ButtonTestDrive {
 
         btn.dePress();
         btn.unDepress();
+
+        scanner.close();
     }
 }
