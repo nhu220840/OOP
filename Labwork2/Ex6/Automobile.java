@@ -1,9 +1,9 @@
 package Labwork2.Ex6;
 
 public class Automobile {
-    static double fuel;
-    static double speed;
-    static String license;
+    private static double fuel;
+    private static double speed;
+    private static String license;
 
     static void init(double f, double s, String l) {
         fuel = f;
