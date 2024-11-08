@@ -1,11 +1,14 @@
 package Labwork3.Task4;
 
 public class Employee {
-    private String ID, fullName, department;
-    private double basicSalary, extraSalary;
+    private String ID;
+    private String fullName;
+    private String department;
+    private double basicSalary;
+    private double extraSalary;
 
-    public Employee(String iD, String fullName, String department, double basicSalary, double extraSalary) {
-        ID = iD;
+    public Employee(String ID, String fullName, String department, double basicSalary, double extraSalary) {
+        this.ID = ID;
         this.fullName = fullName;
         this.department = department;
         this.basicSalary = basicSalary;

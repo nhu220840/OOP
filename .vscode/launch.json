@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ShopTestDrive",
+      "request": "launch",
+      "mainClass": "Labwork4.ShopTestDrive",
+      "projectName": "OOP_abbd8e92"
+    },
+    {
+      "type": "java",
+      "name": "Testprogram",
+      "request": "launch",
+      "mainClass": "Labwork4.Testprogram",
+      "projectName": "OOP_abbd8e92"
+    },
+    {
+      "type": "java",
+      "name": "Company",
+      "request": "launch",
+      "mainClass": "Company",
+      "projectName": "OOP_abbd8e92"
+    },
+    {
+      "type": "java",
+      "name": "AutomobileTestDrive",
+      "request": "launch",
+      "mainClass": "Labwork2.Ex6.AutomobileTestDrive",
+      "projectName": "OOP_abbd8e92"
+    },
+    {
+      "type": "java",
       "name": "ProjectorTest",
       "request": "launch",
       "mainClass": "ProjectorTest",

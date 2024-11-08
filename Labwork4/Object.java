@@ -1,4 +1,4 @@
-package Labwork3.Task1;
+package Labwork4;
 
 public class Object {
     
