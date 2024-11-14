@@ -1,4 +1,4 @@
-package Lab3;
+package Labwork3.Task4;
 
 public class Employee {
     private String ID;
