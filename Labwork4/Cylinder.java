@@ -7,7 +7,7 @@ public class Cylinder extends Circle{
         super(x, y, r);
         this.h = h;
     }
-
+    
     public float getH(){
         return h;
     }
