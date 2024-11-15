@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Automobile",
+      "request": "launch",
+      "mainClass": "Labwork2.Ex6.Automobile",
+      "projectName": "OOP_abbd8e92"
+    },
+    {
+      "type": "java",
       "name": "NameCardTestDrive",
       "request": "launch",
       "mainClass": "Labwork2.Ex1_rm.NameCardTestDrive",

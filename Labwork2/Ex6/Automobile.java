@@ -21,9 +21,25 @@ public class Automobile {
             speed -= v;
     }
 
+    public double getFuel(){
+        return fuel;
+    }
+
+    public double getSpeed(){
+        return speed;
+    }
+
+    public String getLicense(){
+        return license;
+    }
+
     public static void main(String args[]) {
+        Automobile test = new Automobile();
         init(4.5, 34, "29JAD");
         accelerate(4);
         decelerate(5);
+        System.out.println("Fuel: " + test.getFuel());
+        System.out.println("Speed: " + test.getSpeed());
+        System.out.println("License: " + test.getLicense());
     }
 }
