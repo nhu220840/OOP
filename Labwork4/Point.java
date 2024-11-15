@@ -17,14 +17,6 @@ public class Point extends Shape{
         return y;
     }
 
-    public float calArea(){
-        return 0;
-    }
-
-    public float calVolume(){
-        return 0;
-    }
-
     public String getName(){
         return "Point";
     }

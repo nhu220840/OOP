@@ -17,10 +17,6 @@ public class Circle extends Point{
         return this.pi * r * r;
     }
 
-    public float calVolume(){
-        return 0;
-    }
-
     public String getName(){
         return "Circle";
     }
